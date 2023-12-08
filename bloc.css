@@ -1,0 +1,20 @@
+body{
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  margin: 10%;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 0.1fr);
+}
+
+.block {
+  border-color: black;
+  border-style: solid;
+  background-color: #8FC0A9;
+  width: 150px;
+  height: 150px;
+}
