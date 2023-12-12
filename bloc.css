@@ -1,20 +1,34 @@
 body{
   display:flex; 
   flex-direction:column; 
-  justify-content:center;
+  align-items: center;
+  justify-content:space-evenly;
   margin: 10%;
+  background-color: #272727;
+
+}
+h1 {
+  color: #F6F7EB;
+  font-size: xxx-large;
+}
+
+p {
+  color: #F6F7EB;
+  font-size: medium;
 }
 
 .grid {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: repeat(3, 0.1fr);
 }
 
 .block {
   border-color: black;
+  border-width: 3px;
   border-style: solid;
   background-color: #F6F7EB;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer ;
 }

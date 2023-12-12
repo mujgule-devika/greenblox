@@ -21,6 +21,6 @@ const reverseColor = () => {
       const clickedBlockId = document.getElementById(buttonClickArray.pop());
       clickedBlockId.style.backgroundColor = "#F6F7EB";
     }
-  }, 1000);
+  }, 800);
 
 }
