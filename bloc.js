@@ -8,7 +8,6 @@ const changeColor = (id) => {
   clickedBlockId.style.backgroundColor = "#52AA5E";
 
   if (buttonClickArray.length >= 6) {
-    console.log(`inside while`);
     reverseColor();
   }
 }
